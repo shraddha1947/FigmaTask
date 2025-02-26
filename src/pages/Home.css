@@ -1,0 +1,177 @@
+.hero {
+  background-image: url("../components/assets/hero.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  position: relative;
+  width: 1919px;
+  height: 860px;
+  background-color: black;
+  
+  
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+}
+
+.hero-content {
+  position: relative;
+  top: 180px;
+  left: 133px;
+ 
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+ 
+}
+
+.hero p {
+  font-size: small;
+  margin-bottom: 20px;
+  color: lightgray;
+}
+
+.hero-button {
+  
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 8px;
+  
+}
+
+.pricing-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius:5px;
+  transition: 0.3s;
+  border: none;
+  margin: 8px;
+  font-size: 1.2rem;
+  box-shadow: inset 0 0 50px rgb(0, 0, 0);;
+}
+
+.pricing-button:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+
+.hero-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  top: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding: 100px;
+  right: 20px;
+  left: auto;
+  margin-top: 2px;
+  
+}
+
+.box {
+  position: absolute;
+  width: 195px;
+  height: 112px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: inset 0 0 50px rgb(82, 87, 92);
+}
+
+/* Top Boxes */
+.top-left {
+   top: 10px; left: 100px; 
+   overflow: hidden;
+   word-wrap: break-word;
+   text-align: center;
+   
+   
+}
+
+.top-right {
+   top: 10px; right: 100px;
+   overflow: hidden;
+   word-wrap: break-word;
+   text-align: center;
+ }
+
+
+/* Surrounding Boxes */
+.left-side { 
+  left: 10px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+   
+}
+
+
+.right-side { 
+  right: 10px;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+    
+}
+
+/* Bottom Box */
+.bottom { 
+  bottom: 10px; 
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+   
+}
+
+/* Round Image */
+.image-container {
+  position: relative;
+  width: 250px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 20px solid black;
+  box-shadow: inset 0 0 50px rgba(231, 204, 204, 0.434);
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+
+}

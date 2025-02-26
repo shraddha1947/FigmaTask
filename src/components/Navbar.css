@@ -1,0 +1,74 @@
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  padding: 15px 30px;
+  width: 1857px;
+  height: 59.5px;
+  top: 18px;
+  left: 31px;
+}
+
+.logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: ease 0.3s;
+}
+
+.nav-links a:hover {
+  color: lightblue;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn,
+.demo-btn {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius:10px;
+}
+
+.login-btn {
+  background-color:black;
+  color:white;
+}
+.login-btn:hover {
+  background-color:white;
+  color:black;
+}
+
+.demo-btn {
+  background-color:white;
+  color:black;
+  
+
+}
+
+.demo-btn:hover {
+  background-color:black;
+  color:white;
+}
