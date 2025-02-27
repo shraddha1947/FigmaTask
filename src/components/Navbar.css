@@ -1,12 +1,17 @@
 /* Navbar Styling */
+.nav-container{
+  width: 100px;
+  margin: 0%;
+  padding: 0%;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color:black;
   padding: 15px 30px;
-  width: 1857px;
-  height: 59.5px;
+  width: 1220px;
+  height: 50px;
   top: 18px;
   left: 31px;
 }
@@ -15,6 +20,7 @@
   color: white;
   font-size: 24px;
   text-decoration: none;
+  
 }
 
 .nav-links {

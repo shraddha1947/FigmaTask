@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import hero1 from "../components/assets/hero1.png";
 import Trustedby from "../components/Trustedby";
+import Slider from "../components/Slider";
 
 const Home = () => {
   return (
@@ -73,6 +74,7 @@ const Home = () => {
         </div>
       </section>
       <Trustedby />
+      <Slider />
     </>
   );
 };
