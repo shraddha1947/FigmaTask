@@ -3,6 +3,8 @@ import "./Home.css";
 import hero1 from "../components/assets/hero1.png";
 import Trustedby from "../components/Trustedby";
 import Slider from "../components/Slider";
+import Offersection from "../components/Offersection";
+import Cards from "../components/Cards";
 
 const Home = () => {
   return (
@@ -75,6 +77,8 @@ const Home = () => {
       </section>
       <Trustedby />
       <Slider />
+      <Offersection />
+      <Cards />
     </>
   );
 };

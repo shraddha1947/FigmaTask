@@ -61,7 +61,9 @@
 .login-btn {
   background-color:black;
   color:white;
+  
 }
+
 .login-btn:hover {
   background-color:white;
   color:black;
@@ -71,7 +73,6 @@
   background-color:white;
   color:black;
   
-
 }
 
 .demo-btn:hover {
