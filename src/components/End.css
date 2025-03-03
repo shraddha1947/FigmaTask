@@ -66,14 +66,12 @@
   align-items: center;
   border-radius: 10px;
   margin-left:100px;
-  
 }
 
 .part-image img {
   width: 515px;
   height: 270px;
   object-fit: cover;
-  border-radius: 10px;
   background-color: black;
   display: flex;
   margin: 421px;
