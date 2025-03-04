@@ -5,6 +5,10 @@ import Trustedby from "../components/Trustedby";
 import Slider from "../components/Slider";
 import Offersection from "../components/Offersection";
 import Cards from "../components/Cards";
+import Table from "../components/Table";
+import Layout from "../components/Layout";
+import End from "../components/End";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -28,7 +32,6 @@ const Home = () => {
         </div>
 
         <div className="container">
-          {/* Top Boxes */}
           <div className="box top-left">
             PRECISION
             <br />
@@ -44,12 +47,10 @@ const Home = () => {
             MANAGEMENT
           </div>
 
-          {/* Middle Circle Image */}
           <div className="image-container">
             <img src={hero1} alt="hero1" />
           </div>
 
-          {/* Middle Surrounding Boxes */}
           <div className="box left-side">
             SECURITY
             <br />
@@ -65,7 +66,6 @@ const Home = () => {
             TRACKING
           </div>
 
-          {/* Bottom Box */}
           <div className="box bottom">
             SECURE
             <br />
@@ -79,6 +79,10 @@ const Home = () => {
       <Slider />
       <Offersection />
       <Cards />
+      <Table />
+      <Layout />
+      <End />
+      <Footer />
     </>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import "./card.css"; // Import the CSS file for styling
+import "./card.css";
 import icon1 from "../components/assets/icon1.png";
 import icon2 from "../components/assets/icon2.png";
 import icon3 from "../components/assets/icon3.png";
