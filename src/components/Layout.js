@@ -9,7 +9,7 @@ const Layout = () => {
     <div className="top">
       <h1 className="main-heading">Tailored Solutions for Every Business</h1>
       <div />
-      {/* First Image - Left, Text - Right */}
+
       <div className="content">
         <div className="section">
           <img src={layout1} alt="Startups" />
@@ -23,7 +23,6 @@ const Layout = () => {
           </div>
         </div>
 
-        {/* Second Image - Right, Text - Left */}
         <div className="section reverse">
           <img src={layout2} alt="Enterprises" />
           <div className="text">
@@ -37,7 +36,6 @@ const Layout = () => {
           </div>
         </div>
 
-        {/* Third Image - Left, Text - Right */}
         <div className="section">
           <img src={layout3} alt="Professional Services" />
           <div className="text">

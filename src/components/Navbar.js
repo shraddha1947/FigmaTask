@@ -6,14 +6,12 @@ import logo from "./assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* Logo Section */}
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="logo" />
         </Link>
       </div>
 
-      {/* Navigation Links */}
       <ul className="nav-links">
         <li>
           <Link to="/">Home</Link>
@@ -35,7 +33,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Buttons Section */}
       <div className="nav-buttons">
         <button className="login-btn">Login</button>
         <button className="demo-btn">Try Demo</button>
